@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style/sign_up.css" rel="stylesheet">
+    <title>Sign up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <img src="../images/user1.png" alt="logo" class="main_img">
+            <div class="radio_div">
+                <div class="radio_div_client">
+                    <label for="client">I am a client</label>
+                    <input type="radio" id="client" name="client_or_advertisor" value="client" class="r">
+                </div>
+                <div class="radio_div_advertisor">
+                    <label for="advertisor">I am an advertisor</label>
+                    <input type="radio" id="advertisor" name="client_or_advertisor" value="advertisor" class="r">
+                </div>
+            </div>
+            <input type="text" placeholder="email">
+            <input type="password" placeholder="password">
+            <div class="firstLast">
+                <input type="text" placeholder="first name">
+                <input type="text" placeholder="last name">
+            </div>
+            <input type="tel" placeholder="phone number">
+            <button>Sign up</button>
+            <hr>
+            <span>already have an account ?</span>
+            <button onclick="location.href = './log_in.html';">Log In</button>
+        </div>
+    </div>
+</body>
+</html>

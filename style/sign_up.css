@@ -1,0 +1,74 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(244, 232, 234);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 30%;
+    border: 1px solid rgb(244, 232, 234);
+    padding: 20px;
+}
+.main *{
+    margin-bottom: 10px;
+}
+.radio_div{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.radio_div_advertisor{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(147, 219, 64);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.radio_div_client{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 81, 230);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.r{
+    cursor: pointer;
+    
+}
+.main input {
+    width: 100%;
+    outline-width: 0;
+}
+.main button {
+    width: 100%;
+    cursor: pointer;
+}
+
+.main_img{
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.firstLast{
+    display: flex;
+    padding-top: 9px;
+    width: 100%;
+}
