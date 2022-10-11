@@ -1,4 +1,4 @@
-const mysql = require('mysql2')
+import mysql from "mysql2";
 const pool = mysql.createPool({
     host : "localhost",
     user : "root",
@@ -7,7 +7,12 @@ const pool = mysql.createPool({
 }).promise()
 
 export async function insertUser(fname, lname, email, password, phone, type){
-    const user = await pool.query('insert into users(firstname, lastname, email, password, phone, type) values(?,?,?,?,?,?)',
-    [fname, lname, email, password, phone, type]);
-    console.log(user)
+    // const user = await pool.query('insert into users(firstname, lastname, email, password, phone, type) values(?,?,?,?,?,?)',
+    // [fname, lname, email, password, phone, type]);
+    // console.log(user)
+    console.log('hey koki')
+}
+
+export function add(a, b){
+    return a+b
 }
